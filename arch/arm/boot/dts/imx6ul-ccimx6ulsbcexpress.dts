@@ -15,7 +15,7 @@
 / {
 	model = "Digi International ConnectCore 6UL SBC Express.";
 	compatible = "digi,ccimx6ulsbcexpress", "digi,ccimx6ulsom",
-		     "fsl,imx6ul";
+		     "digi,ccimx6ul", "fsl,imx6ul";
 };
 
 &adc1 {

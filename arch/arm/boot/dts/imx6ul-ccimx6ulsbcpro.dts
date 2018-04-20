@@ -14,7 +14,8 @@
 
 / {
 	model = "Digi International ConnectCore 6UL SBC Pro.";
-	compatible = "digi,ccimx6ulsbcpro", "digi,ccimx6ulsom", "fsl,imx6ul";
+	compatible = "digi,ccimx6ulsbcpro", "digi,ccimx6ulsom",
+		     "digi,ccimx6ul", "fsl,imx6ul";
 
 	lcd_backlight: backlight {
 		compatible = "pwm-backlight";
