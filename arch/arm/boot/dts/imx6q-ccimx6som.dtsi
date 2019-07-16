@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: GPL-2.0 OR X11
+/*
+ * Copyright 2019 Digi International, Inc.
+ */
+
+/dts-v1/;
+#include <dt-bindings/gpio/gpio.h>
+#include "imx6q.dtsi"
+#include "imx6qdl-ccimx6som.dtsi"
+
